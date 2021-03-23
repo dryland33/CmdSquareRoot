@@ -11,7 +11,7 @@ namespace SquareRoot
         static void Main(string[] args) {
 
             Console.WriteLine("\n\nEnter Q to quit.");
-
+            double squareroot;
             bool cont = true;
 
             while (cont) {
@@ -20,8 +20,14 @@ namespace SquareRoot
                 if (input == "Q")
                     cont = false;
                 else if (double.TryParse(input, out double inumb)) {
-                    double squareroot = Math.Sqrt(inumb);
-                    Console.WriteLine($"The squareroot of the number {inumb:F3} is {squareroot:F3} ");
+                    if (inumb < 0) {
+                        inumb *= -1;
+                        squareroot = Math.Sqrt(inumb);
+                        Console.WriteLine($"The squareroot of the number {inumb:F3} is {squareroot:F3}i");
+                    } else {
+                        squareroot = Math.Sqrt(inumb);
+                        Console.WriteLine($"The squareroot of the number {inumb:F3} is {squareroot:F3} ");
+                    }
                 } else Console.WriteLine("\nINVALID INPUT!!!");
 
             }
