@@ -1,0 +1,7 @@
+C:\Users\Rylan\Documents\PerScholas\c#\SquareRoot\bin\Debug\SquareRoot.exe.config
+C:\Users\Rylan\Documents\PerScholas\c#\SquareRoot\bin\Debug\SquareRoot.exe
+C:\Users\Rylan\Documents\PerScholas\c#\SquareRoot\bin\Debug\SquareRoot.pdb
+C:\Users\Rylan\Documents\PerScholas\c#\SquareRoot\obj\Debug\SquareRoot.csprojAssemblyReference.cache
+C:\Users\Rylan\Documents\PerScholas\c#\SquareRoot\obj\Debug\SquareRoot.csproj.CoreCompileInputs.cache
+C:\Users\Rylan\Documents\PerScholas\c#\SquareRoot\obj\Debug\SquareRoot.exe
+C:\Users\Rylan\Documents\PerScholas\c#\SquareRoot\obj\Debug\SquareRoot.pdb
